@@ -1,4 +1,4 @@
-# Credit-Card-Fraud-Analysis
+# Credit-Card-Fraud-Detection
 
 ## I. INTRODUCTION
 In this modern era, there have always been people who
