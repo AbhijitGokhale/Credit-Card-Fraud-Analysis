@@ -13,6 +13,7 @@ fraud.
 ## II. PROJECT OBJECTIVE
 
 ***A. Why fraud detection ?***
+
 Consumers in 2020 reported losing over $3.3 billion to
 fraud, an increase of $1.5 billion over the amount reported in
 2019. Worldwide, businesses are expected to lose $75 billion
