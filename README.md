@@ -1,6 +1,6 @@
 # Credit-Card-Fraud-Detection
 
-## I. INTRODUCTION
+## INTRODUCTION
 In this modern era, there have always been people who
 will find new ways to access someone’s finances illegally. As
 all transactions can easily be completed online with a credit
@@ -10,7 +10,8 @@ of customers’ loyalty along with the company’s reputation.
 Even after numerous mechanisms to stop fraud, fraudsters are
 continuously trying to find new ways and tricks to commit
 fraud.
-## II. PROJECT OBJECTIVE
+
+## PROJECT OBJECTIVE
 
 ***A. Why fraud detection ?***
 
