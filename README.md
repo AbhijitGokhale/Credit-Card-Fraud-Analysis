@@ -1,7 +1,8 @@
 # Credit-Card-Fraud-Detection
+Utilize existing credit card fraud data from January 2019 to December 2020 and develop a machine learning model in PySpark to perform Big Data Analysis which inturn leads to the best prediction results in revealing and preventing fraudulent transactions.
 
 ## INTRODUCTION
-In this modern era, there have always been people who
+In this modern era, there have always been people who 
 will find new ways to access someone’s finances illegally. As
 all transactions can easily be completed online with a credit
 card, consumers, banks, and merchants are put at risk when
@@ -63,3 +64,17 @@ incorporate important features. These steps will get the data
 ready for our analyses. Next, we will perform exploratory data analysis, time series
 analysis to identify the trends, and classification
 techniques to identify whether a transaction is fraudulent or legitimate.
+
+## Dataset
+
+* Our Data containing geographical, demographics and transaction features is a simulated credit card transaction dataset containing legitimate and fraud transactions from the duration 1st Jan 2019 - 31st Dec 2020. 
+* It was generated using Sparkov Data Generation tool and covers credit cards of 1000 customers doing transactions with a pool of 800 merchants. It is already split into training and test data, where training data contains transactions from 1st Jan 2019 to 21st June 2020 and test data contains transactions from 21st June 2020 to 31st Dec 2020. 
+* We will create a baseline model after data preprocessing but that might be underfitted or overfitted, which could be mitigated if a model is trained and tested by a randomly sampled dataset to create a robust model. This is an important step to detect and predict fraudulent or legitimate transactions and not to deteriorate the detection rate and false alarm rate.
+* It is important to know the past transaction history of a credit card. Thus, we need to use feature engineering to create columns that can study a card’s frequency of transaction in past 1 day, 1 week, 1 month and 3 months.
+
+![image](https://user-images.githubusercontent.com/84480824/206971263-c89cb7ff-09a0-42f2-ac71-da595a6500d9.png)
+![image](https://user-images.githubusercontent.com/84480824/206971292-895b758d-f654-41c4-ad3a-51ab7973f121.png)
+![image](https://user-images.githubusercontent.com/84480824/206971323-0007837f-1c99-4c52-a242-fb5a29449f14.png)
+
+**Required PySpark Packages**
+![image](https://user-images.githubusercontent.com/84480824/206971426-b7a55e5a-3bd0-48a1-8cc0-faa80ea93742.png)
